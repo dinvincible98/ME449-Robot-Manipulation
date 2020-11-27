@@ -11,4 +11,6 @@
 
 * NewTask
 
+![newTask](https://user-images.githubusercontent.com/70287453/100411792-58242e00-3038-11eb-8eaa-48703d2cd7ae.gif)
+
 
