@@ -12,7 +12,7 @@
 	
 	2. Use the desired trajectory in feedfoward+PI to calculate the kinematics of the youBot
 	
-<a href="https://www.codecogs.com/eqnedit.php?latex=V(t)&space;=&space;[Ad_{X^{-1}X_{d}}]V_{d}(t)&space;&plus;&space;K_{p}X_{err}(t)&space;&plus;&space;K_{i}\int_{0}^{t}X_{err}(t)dt" target="_blank"><img src="https://latex.codecogs.com/gif.latex?V(t)&space;=&space;[Ad_{X^{-1}X_{d}}]V_{d}(t)&space;&plus;&space;K_{p}X_{err}(t)&space;&plus;&space;K_{i}\int_{0}^{t}X_{err}(t)dt" title="V(t) = [Ad_{X^{-1}X_{d}}]V_{d}(t) + K_{p}X_{err}(t) + K_{i}\int_{0}^{t}X_{err}(t)dt" /></a>
+	<a href="https://www.codecogs.com/eqnedit.php?latex=V(t)&space;=&space;[Ad_{X^{-1}X_{d}}]V_{d}(t)&space;&plus;&space;K_{p}X_{err}(t)&space;&plus;&space;K_{i}\int_{0}^{t}X_{err}(t)dt" target="_blank"><img src="https://latex.codecogs.com/gif.latex?V(t)&space;=&space;[Ad_{X^{-1}X_{d}}]V_{d}(t)&space;&plus;&space;K_{p}X_{err}(t)&space;&plus;&space;K_{i}\int_{0}^{t}X_{err}(t)dt" title="V(t) = [Ad_{X^{-1}X_{d}}]V_{d}(t) + K_{p}X_{err}(t) + K_{i}\int_{0}^{t}X_{err}(t)dt" /></a>
 	
 	3. Use the calculated kinematics to drive the youBot
 	
