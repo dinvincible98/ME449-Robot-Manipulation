@@ -43,9 +43,11 @@ There are three subdirectories and each contain two .csv file(one for simulation
 	Ki = 0.5
 	
 * Demo
+
 ![best](https://user-images.githubusercontent.com/70287453/100411600-dcc27c80-3037-11eb-9b2b-3de78e7b406f.gif)
 	
 * Xerr plot:
+
 ![Best](https://user-images.githubusercontent.com/70287453/100800894-d6901f80-33ec-11eb-985d-63261fdd943c.png)
   
 		               
