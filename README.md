@@ -41,16 +41,16 @@ There are three subdirectories(Best,Overshoot and newTask) and each contain two 
 	The initial configuration of the cube:
 	
 	Tsc_ini = np.array([[1, 0, 0, 1],
-                       [0, 1, 0, 0],
-                       [0, 0, 1, 0.025],
-                       [0, 0, 0, 1]])
+                            [0, 1, 0, 0],
+                            [0, 0, 1, 0.025],
+                            [0, 0, 0, 1]])
                        
 	The final(goal) configuration of the cube:
 	
 	Tsc_fin = np.array([[0, 1, 0, 0],
-		               [-1, 0, 0, -1],
-		               [0, 0, 1, 0.025],
-		               [0, 0, 0, 1]])
+		       	    [-1, 0, 0, -1],
+		            [0, 0, 1, 0.025],
+		            [0, 0, 0, 1]])
 	Gains:
 	
 	KP = 20
@@ -69,16 +69,16 @@ There are three subdirectories(Best,Overshoot and newTask) and each contain two 
 	The initial configuration of the cube:
 	
 	Tsc_ini = np.array([[1, 0, 0, 1],
-                       [0, 1, 0, 0],
-                       [0, 0, 1, 0.025],
-                       [0, 0, 0, 1]])
+                            [0, 1, 0, 0],
+                            [0, 0, 1, 0.025],
+                            [0, 0, 0, 1]])
                        
 	The final(goal) configuration of the cube:
 	
 	Tsc_fin = np.array([[0, 1, 0, 0],
-		               [-1, 0, 0, -1],
-		               [0, 0, 1, 0.025],
-		               [0, 0, 0, 1]])
+		            [-1, 0, 0, -1],
+		            [0, 0, 1, 0.025],
+		            [0, 0, 0, 1]])
 	Gains:
 	
 	KP = 2
