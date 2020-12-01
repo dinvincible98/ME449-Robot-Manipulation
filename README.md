@@ -20,9 +20,11 @@
 
 * Results
 
-There are three subdirectories and each contain two .csv file(one for simulation and one for plot of end-effector error), one log file, one plot picture, one simulation video and a README that states the controller and gain values(Kp and Ki)
- 
-1.Best: It solves a pick-and-place task with a mini Xerr value where the initial and final configurations of the cube are at the default locations in the capstone CoppeliaSim scene.
+There are three subdirectories(Best,Overshoot and newTask) and each contain two .csv file(one for simulation and one for plot of end-effector error), one log file, one plot picture, one simulation video and a README that states the controller and gain values(Kp and Ki)
+
+# Results
+
+* Best: It solves a pick-and-place task with a mini Xerr value where the initial and final configurations of the cube are at the default locations in the capstone CoppeliaSim scene.
 	
 	The initial configuration of the cube:
 	
