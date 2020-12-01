@@ -32,7 +32,7 @@
 
 * Results
 
-There are three subdirectories(Best,Overshoot and newTask) and each contain two .csv file(one for simulation and one for plot of end-effector error), one log file, one plot picture, one simulation video and a README that states the controller and gain values(KP and KI)
+There are three subdirectories(Best,Overshoot and newTask) and each contains two .csv file(one for simulation and one for plot of end-effector error), one log file, one plot picture, one simulation video and a README that states the controller and gain values(KP and KI)
 
 # Results
 
