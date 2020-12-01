@@ -24,7 +24,7 @@ There are three subdirectories(Best,Overshoot and newTask) and each contain two 
 
 # Results
 
-* Best: It solves a pick-and-place task with a mini Xerr value where the initial and final configurations of the cube are at the default locations in the capstone CoppeliaSim scene.
+*Best: It solves a pick-and-place task with a mini Xerr value where the initial and final configurations of the cube are at the default locations in the capstone CoppeliaSim scene.
 	
 	The initial configuration of the cube:
 	
@@ -51,22 +51,55 @@ There are three subdirectories(Best,Overshoot and newTask) and each contain two 
 * Xerr plot:
 
 ![Best](https://user-images.githubusercontent.com/70287453/100800894-d6901f80-33ec-11eb-985d-63261fdd943c.png)
-  
-		               
+
+*Overshoot: It solves the same task as "Best" but the has larger Xerr value.
 	
-	2. Overshoot: It solves the same task as "Best" but the has larger Xerr value.
-
-	3. Newtask: It solves the pick-and-place task where the initial and final configuration of the cube is self-customized.
-
-
-
-
-* Overshoot
+	The initial configuration of the cube:
+	
+	Tsc_ini = np.array([[1, 0, 0, 1],
+                       [0, 1, 0, 0],
+                       [0, 0, 1, 0.025],
+                       [0, 0, 0, 1]])
+                       
+	The final(goal) configuration of the cube:
+	
+	Tsc_fin = np.array([[0, 1, 0, 0],
+		               [-1, 0, 0, -1],
+		               [0, 0, 1, 0.025],
+		               [0, 0, 0, 1]])
+	Gains:
+	
+	Kp = 2
+	Ki = 0.001
+* Demo
 
 ![overshoot](https://user-images.githubusercontent.com/70287453/100411731-35921500-3038-11eb-8d46-5e6ad207eea3.gif)
 
-* NewTask
+* Xerr plot
 
+![overshoot](https://user-images.githubusercontent.com/70287453/100800924-e0198780-33ec-11eb-9c03-43a4eb9e2a90.png)
+
+*NewTask: It solves the pick-and-place task where the initial and final configuration of the cube is self-customized.
+	
+	The initial configuration of the cube:
+	
+	Tsc_ini = np.array([[0, -1, 0, 1],
+			    [1, 0, 0, 1.0],
+			    [0, 0, 1, 0.025],
+			    [0, 0, 0, 1]])
+	
+	The final(goal) configuration of the cube:
+	
+	Tsc_fin = np.array([[1, 0, 0, 2],
+			    [0, 1, 0, 0],
+			    [0, 0, 1, 0.025],
+			    [0, 0, 0, 1]])
+	Gains:
+	
+	Kp = 20
+	Ki = 0.1
+
+* Demo
 ![newTask](https://user-images.githubusercontent.com/70287453/100411792-58242e00-3038-11eb-8eaa-48703d2cd7ae.gif)
 
 
