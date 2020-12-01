@@ -6,6 +6,16 @@
 
 * The goal of the project is to wirte a program that enables KUKA youBot to finish a pick and place task in V-Rep simulation scene.
 
+* General procedures of simulation task:
+	
+	1. Plan a trajectory for the end-effector to follow  
+	
+	2. Use the desired trajectory in feedfoward+PI to calculate the kinematics of the youBot
+	
+	3. Use the calculated kinematics to drive the youBot
+	
+	4. Save a .csv file and conduct simulation in V-rep scene 6.
+
 # Package description
 
 * Code
@@ -20,7 +30,7 @@
 
 * Results
 
-There are three subdirectories(Best,Overshoot and newTask) and each contain two .csv file(one for simulation and one for plot of end-effector error), one log file, one plot picture, one simulation video and a README that states the controller and gain values(Kp and Ki)
+There are three subdirectories(Best,Overshoot and newTask) and each contain two .csv file(one for simulation and one for plot of end-effector error), one log file, one plot picture, one simulation video and a README that states the controller and gain values(KP and KI)
 
 # Results
 
@@ -41,8 +51,8 @@ There are three subdirectories(Best,Overshoot and newTask) and each contain two 
 		               [0, 0, 0, 1]])
 	Gains:
 	
-	Kp = 20
-	Ki = 0.5
+	KP = 20
+	KI = 0.5
 	
 * Demo:
 
@@ -52,7 +62,7 @@ There are three subdirectories(Best,Overshoot and newTask) and each contain two 
 
 ![Best](https://user-images.githubusercontent.com/70287453/100800894-d6901f80-33ec-11eb-985d-63261fdd943c.png)
 
-2.Overshoot: It solves the same task as "Best" but the has larger Xerr value.
+2.Overshoot: It solves the same task as "Best" but it has larger Xerr value.
 	
 	The initial configuration of the cube:
 	
@@ -69,8 +79,8 @@ There are three subdirectories(Best,Overshoot and newTask) and each contain two 
 		               [0, 0, 0, 1]])
 	Gains:
 	
-	Kp = 2
-	Ki = 0.001
+	KP = 2
+	KI = 0.001
 * Demo:
 
 ![overshoot](https://user-images.githubusercontent.com/70287453/100411731-35921500-3038-11eb-8d46-5e6ad207eea3.gif)
@@ -96,8 +106,8 @@ There are three subdirectories(Best,Overshoot and newTask) and each contain two 
 			    [0, 0, 0, 1]])
 	Gains:
 	
-	Kp = 20
-	Ki = 0.1
+	KP = 20
+	KI = 0.1
 
 * Demo:
 
