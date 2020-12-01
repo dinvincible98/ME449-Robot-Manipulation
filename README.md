@@ -2,7 +2,7 @@
 
 # Overview
 
-* This is the final project of the cource ME 449 Robotic Manipulation at Northwestern University. It is also the capstone project for the course "Modern Robotics" on Cousera. Here is a wiki page includes the detailed information.
+* This is the final project of the cource ME 449 Robotic Manipulation at Northwestern University. It is also the capstone project for the course "Modern Robotics" on Cousera. Here is a [wiki](http://hades.mech.northwestern.edu/index.php/ME_449_Robotic_Manipulation) page includes the detailed information.
 
 * The goal of the project is to wirte a program that enables KUKA youBot to finish a pick and place task in V-Rep simulation scene.
 
